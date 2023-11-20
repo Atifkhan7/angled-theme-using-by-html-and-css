@@ -1,0 +1,325 @@
+/* body */
+
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0d6ff;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* #navbar  */
+#navbar {
+    background-color: #1f31bb;
+    width: 1348px;
+    height: 150px;
+}
+
+
+/* #navbar .logo */
+#navbar .logo {
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    float: left;
+    padding: 0px 0px 0px 60px;
+}
+
+/* #navbar .logo h1 */
+#navbar .logo h1 {
+    margin: 0;
+    display: inline-block;
+    padding: 50px 0px 0px 0px;
+    font-size: 2.6rem;
+}
+
+/* #navbar .logo h1 a  */
+#navbar .logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* #navbar #menu  */
+
+#navbar #menu {
+    width: 850px;
+    height: 100px;
+    float: right;
+    padding: 20px 40px 0px 0px;
+}
+
+/* #navbar #menu ul */
+#navbar #menu ul {
+    margin: 0;
+    float: right;
+    list-style: none;
+    line-height: normal;
+}
+
+/* #navbar #menu ul li */
+#navbar #menu ul li {
+    float: left;
+    padding: 40px 3px;
+}
+
+/* #navbar #menu ul li a */
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+/* #menu ul li a:hover,#menu ul li a.khan */
+#menu ul li a:hover,
+#menu ul li a.khan {
+    border-radius: 10px;
+    background: #fff;
+    color: #1f31bb;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* #section */
+/* #section {
+    width: 99%;
+    border: 1px solid red;
+    background: url(img/) no-repeat;
+} */
+
+/* #section #page-one  */
+
+#section #page-one {
+    border: 20px solid #f1f1f1;
+    width: 1150px;
+    margin: 40px auto;
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+/* #section #page-one h1 */
+
+#section #page-one h1 {
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+    font-size: 2.5rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+/* #section #page-one p#first-para img */
+
+#section #page-one p#first-para img {
+    float: left;
+    margin-top: 0px;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+/* #section #page-one p#first-para a */
+
+#section #page-one p#first-para a {
+    color: black;
+}
+
+/* #section #page-one p#first-para a:hover */
+
+#section #page-one p#first-para a:hover {
+    text-decoration: none;
+}
+
+/* #section #page-one p.para */
+
+#section #page-one p.para {
+    text-align: justify;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+/* #section #page-one .btn */
+
+#section #page-one .btn {
+    padding: 5px 40px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background: #1f31bb;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* #section #page */
+
+#page {
+    width: 1250px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+/* #section #page-two */
+
+#section #page-two {
+    width: 800px;
+    box-sizing: border-box;
+}
+
+/* #section #page-two #content */
+
+#section #page-two #content {
+    float: left;
+    box-sizing: border-box;
+}
+
+/* #section #page-two #content h1.first */
+
+#section #page-two #content h1.first {
+    text-align: left;
+    font-size: 2.4rem;
+    padding: 10px 10px;
+    margin-top: 0;
+}
+
+/* #section #page-two #content .paragra */
+
+#section #page-two #content .paragra {
+    text-align: justify;
+    text-align-last: left;
+    font-size: 16px;
+    padding: 10px 10px;
+    padding-bottom: 0;
+}
+
+/* #section #page-two #content .btn1,#section #page-two #content .btn2 */
+
+#section #page-two #content .btn1,
+#section #page-two #content .btn2 {
+    padding: 10px 20px;
+    width: 35%;
+    margin-top: 26px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1f31bb;
+    color: #fff;
+}
+
+/* #section #page-two #content .btn2 */
+
+#section #page-two #content .btn2 {
+    margin-bottom: 10px;
+    margin-top: 17px;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* #section #page #sidebar  */
+
+#sidebar {
+    /* border: 1px solid black; */
+    width: 450px;
+    float: right;
+    box-sizing: border-box;
+}
+
+/* #sidebar h1  */
+
+#sidebar h1 {
+    text-align: left;
+    font-size: 2.4rem;
+    padding: 10px 35px;
+    margin-top: 0;
+}
+
+/* #sidebar ul */
+
+#sidebar ul {
+    margin: 0;
+}
+
+/* #sidebar ul li */
+
+#sidebar ul li {
+    list-style: none;
+}
+
+/* #sidebar ul li .sidebar-para */
+
+#sidebar ul li .sidebar-para {
+    background-color: #1f31bb;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* #sidebar ul li p a  */
+
+#sidebar ul li p a {
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+}
+
+/* #sidebar ul li p a:hover */
+
+#sidebar ul li p a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* #footer */
+
+#footer {
+    background-color: #1f31bb;
+    clear: both;
+    color: #fff;
+    width: 1348px;
+    text-align: center;
+}
+
+/* #footer p  */
+
+#footer p {
+    padding: 0px 20px;
+    margin: 0;
+    margin-bottom: 0;
+    line-height: 150px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* #footer p a */
+
+#footer p a {
+    color: #fff;
+}
+
+/* #footer p a:hover */
+
+#footer p a:hover {
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------------------- */
